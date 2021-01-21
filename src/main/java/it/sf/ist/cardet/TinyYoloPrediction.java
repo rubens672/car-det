@@ -57,7 +57,7 @@ public class TinyYoloPrediction {
 //			preTrained = ModelSerializer.restoreComputationGraph("model/best_pre_TinyYOLOcardet_mille_fotogrammi_3.bin");
 			preTrained = ModelSerializer.restoreComputationGraph("model/YOLO2_images_III_422_P20I_1012_16N_0030_0100.bin");
 //			preTrained = ModelSerializer.restoreComputationGraph("model/TinyYOLOcardet_gpu.bin");
-			//			preTrained = (ComputationGraph)TinyYOLO.builder().build().initPretrained();
+//			preTrained = (ComputationGraph)TinyYOLO.builder().build().initPretrained();
 			prepareLabels();
 		} catch (IOException e) {
 			throw new RuntimeException(e);
